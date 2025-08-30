@@ -30,4 +30,34 @@
         <url-pattern>/baiTap3</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <description></description>
+        <display-name>baiTap4</display-name>
+        <servlet-name>baiTap4</servlet-name>
+        <servlet-class>iuh.fit.se.tuan01.baiTap4</servlet-class>
+        <init-param>
+            <param-name>message</param-name>
+            <param-value>Hello from init-param!</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>baiTap4</servlet-name>
+        <url-pattern>/baiTap4</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>appName</param-name>
+        <param-value>My Jakarta Servlet Application</param-value>
+    </context-param>
+
+    <servlet>
+        <description></description>
+        <display-name>baiTap5</display-name>
+        <servlet-name>baiTap5</servlet-name>
+        <servlet-class>iuh.fit.se.tuan01.baiTap5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>baiTap5</servlet-name>
+        <url-pattern>/baiTap5</url-pattern>
+    </servlet-mapping>
+
 </web-app>
