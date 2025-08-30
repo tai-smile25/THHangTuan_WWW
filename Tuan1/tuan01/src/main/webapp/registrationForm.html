@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form method="post" action="register" name="registrationForm">
+    <!-- Name: First and Last -->
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <!-- UserName -->
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <!-- E-mail -->
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Facebook URL with hint -->
+    <label for="facebook">Facebook:</label><br>
+    <input type="url" id="facebook" name="facebook"  required><br>
+    <small>Enter your Facebook profile URL</small><br><br>
+
+    <!-- Short Bio with hint -->
+    <label for="bio">Short Bio:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="50" ></textarea><br>
+    <small>Share a little information about yourself</small><br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
