@@ -39,4 +39,14 @@
         <servlet-name>baiTap4</servlet-name>
         <url-pattern>/baiTap4</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>messageServlet</display-name>
+        <servlet-name>messageServlet</servlet-name>
+        <servlet-class>iuh.fit.se.tuan02.messageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>messageServlet</servlet-name>
+        <url-pattern>/messageServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
