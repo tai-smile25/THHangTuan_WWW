@@ -36,6 +36,29 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!--
+		https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>11.2.3.jre17</version>
+        </dependency>
+
+        <!--
+        https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+        <!--
+        https://mvnrepository.com/artifact/org.jboss.weld.servlet/weld-servlet-core -->
+        <dependency>
+            <groupId>org.jboss.weld.servlet</groupId>
+            <artifactId>weld-servlet-core</artifactId>
+            <version>5.1.2.Final</version>
+        </dependency>
     </dependencies>
 
     <build>
