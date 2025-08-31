@@ -29,4 +29,14 @@
         <servlet-name>baiTap3</servlet-name>
         <url-pattern>/baiTap3</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>baiTap4</display-name>
+        <servlet-name>baiTap4</servlet-name>
+        <servlet-class>iuh.fit.se.tuan02.baiTap4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>baiTap4</servlet-name>
+        <url-pattern>/baiTap4</url-pattern>
+    </servlet-mapping>
 </web-app>
