@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/QUANLYDIENTHOAI" auth="Container" type="javax.sql.DataSource"
+              maxActive="50" maxIdle="30" maxWait="10000"
+              username="root" password="sapassword"
+              driverClassName="org.mariadb.jdbc.Driver"
+              url="jdbc:mariadb://localhost:3306/QUANLYDIENTHOAI"
+              URIEncoding="UTF-8"/>
+</Context>
