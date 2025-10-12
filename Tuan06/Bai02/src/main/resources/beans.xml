@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean của Address dùng setter injection -->
+    <bean id="addressBean" class="entities.Address">
+        <property name="city" value="Hanoi" />
+        <property name="state" value="HN" />
+        <property name="country" value="Vietnam" />
+    </bean>
+
+    <!-- Bean của Employee dùng constructor injection -->
+    <bean id="employeeBean" class="entities.Employee">
+        <constructor-arg value="1" />
+        <constructor-arg value="Nguyen Van A" />
+        <constructor-arg ref="addressBean" />
+    </bean>
+
+</beans>
