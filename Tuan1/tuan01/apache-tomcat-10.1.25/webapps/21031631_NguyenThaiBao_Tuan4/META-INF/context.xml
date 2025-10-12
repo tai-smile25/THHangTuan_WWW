@@ -1,0 +1,26 @@
+<Context>
+	<Resource name="jdbc/shopping" auth="Container"
+			  type="javax.sql.DataSource"
+			  maxTotal="50"
+			  maxIdle="30"
+			  maxWaitMillis="10000"
+			  username="root"
+			  password="sapassword"
+			  driverClassName="org.mariadb.jdbc.Driver"
+			  url="jdbc:mariadb://localhost:3306/shopping?useUnicode=true&characterEncoding=UTF-8" />
+</Context>
+
+
+
+
+
+		<!--<Context>-->
+<!--	<Resource name="jdbc/shopping" auth="Container"-->
+<!--		type="javax.sql.DataSource" maxTotal="50" maxIdle="30"-->
+<!--		maxWaitMillis="10000" -->
+<!--		username="sa" password="sqlsmile"-->
+<!--		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"-->
+<!--		url="jdbc:sqlserver://localhost:1433;encrypt=false;databaseName=shopping;" -->
+<!--		URIEncoding="UTF-8"-->
+<!--		/>-->
+<!--</Context>-->
